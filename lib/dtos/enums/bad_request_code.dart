@@ -1,0 +1,22 @@
+enum BadRequestCode {
+  UnidentifiedIdentityError,
+  IdsNotMatching,
+  InvalidUserName,
+  InvalidEmail,
+  DuplicateUserName,
+  DuplicateEmail,
+  UserAlreadyHasPassword,
+  PasswordTooShort,
+  PasswordRequiresUniqueChars,
+  PasswordRequiresNonAlphanumeric,
+  PasswordRequiresDigit,
+  PasswordRequiresLower,
+  PasswordRequiresUpper,
+  InvalidToken,
+  CanNotDeleteAcceptedChallenge,
+  CanNotChallengeYourself,
+  CanNotEditChallengeAfterAcceptance,
+  UserAlreadyInTeam,
+  CanNotDeleteTeamWhenActiveChallenges,
+  UserIsOwnerOfTeam
+}

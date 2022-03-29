@@ -1,0 +1,4 @@
+enum UnauthorizedCode {
+  UserNotOwnerOfChallenge,
+  UserNotOwnerOfTeam,
+}
